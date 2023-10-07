@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "root",
+  "description": "Password generator.",
+  "version": "1.0.0",
+  "author": "Chris Ackerman <chris@topher.land>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shakeskeyboarde/mkpass"
+  },
+  "scripts": {},
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "@werk/cli": "^8.0.5",
+    "@werk/command-build": "^2.1.5",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "cli",
+  "description": "Simple password generator.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Chris Ackerman <chris@topher.land>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shakeskeyboarde/mkpass",
+    "directory": "packages/cli"
+  },
+  "homepage": "https://github.com/Shakeskeyboarde/mkpass/blob/main/packages/cli/README.md",
+  "type": "module",
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "mkpass": "./lib/index.js",
+    "mkp": "./lib/index.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "word-list": "^3.1.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.11",
+    "vite-plugin-bin": "^1.0.1",
+    "vite-plugin-checker": "^0.6.2"
+  }
+}

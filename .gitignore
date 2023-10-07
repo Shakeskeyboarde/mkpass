@@ -1,0 +1,12 @@
+.vscode
+node_modules
+lib
+out
+dist
+coverage
+
+*.log
+*.tar
+*.gz
+*.tgz
+*.zip
