@@ -49,6 +49,7 @@ const getPassword = (): string => {
   return result;
 };
 
-const passwords = Array.from({ length: 10 }).map(() => getPassword());
+const passwords = Array.from({ length: 40 }).map(() => getPassword());
 
+console.clear();
 console.log(passwords.join("\n"));
