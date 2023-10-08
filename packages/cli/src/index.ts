@@ -30,9 +30,13 @@ const getWord = (): string => {
 const getPassword = (): string => {
   let result = "";
 
-  do {
+  for (
+    let i = 0;
+    i < 3 || result.length < 16 || !leetLetterPattern.test(result);
+    ++i
+  ) {
     result += getWord();
-  } while (result.length < 16 || !leetLetterPattern.test(result));
+  }
 
   const matches = [...result.matchAll(leetLetterPattern)];
 
